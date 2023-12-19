@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+  </head>
+  <body>
+    <div style="display: flex; justify-content: center">
+      <form action="/products" method="POST">
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 10px;
+          "
+        >
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter Your Product Name"
+            style="margin-bottom: 10px"
+          />
+          <input
+            type="number"
+            name="price"
+            placeholder="Enter Your Product Price"
+          />
+        </div>
+        <button type="submit">Save Product Details</button>
+      </form>
+    </div>
+  </body>
+</html>
